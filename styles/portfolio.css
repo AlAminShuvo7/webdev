@@ -141,7 +141,7 @@ nav ul {
     align-items: center;
 }
 
-.section-title {
+.about >.section-title {
     margin: 5px 0;
 }
 
@@ -173,4 +173,34 @@ nav ul {
     font-weight: bold;
     color: #474747;
     margin-top: 5px;
+}
+
+/* Activities Section  */
+
+.activity {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 230px;
+}
+
+.activity > .para-1 {
+    text-align: center;
+    margin: 0 10%;
+}
+
+.cards {
+    margin: 40px auto;
+    display: flex;
+    gap: 34px;
+}
+
+.card {
+    padding: 50px;
+}
+
+.card {
+    width: 80%;
+    text-align: left;
+    box-shadow: 0 0 25px 5px #eee;
 }
