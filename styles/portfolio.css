@@ -38,6 +38,18 @@ body {
     font-weight: bold;
 }
 
+.reverse-orange-btn {
+    background-color: white;
+    padding: 18px 35px;
+    font-size: 20px;
+    color: #FD6E0A;
+    border-radius: 5px;
+    border: none;
+    font-weight: bold;
+    border: 1px solid #FD6E0A;
+    margin-left: 20px;
+}
+
 .hero {
     background-image: url(../images/developer.png), url(../images/header_bg.png);
     background-repeat: no-repeat;
